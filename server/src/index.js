@@ -25,7 +25,8 @@ const PORT = process.env.PORT || 5000;
 app.use(cors({
   origin: [
     process.env.CLIENT_URL,
-    "https://bookmyshow-ftn6nd7x7-sriram2212s-projects.vercel.app"
+    "https://bookmyshow-ftn6nd7x7-sriram2212s-projects.vercel.app",
+    "https://bookmyshow-1-three.vercel.app"
   ],
   credentials: true
 }));
